@@ -5,9 +5,7 @@ The Everglow Library repository hosts the source code for a Laravel‑based web 
 - PHP (Laravel Framework)
 - MySQL
 - HTML, CSS, JavaScript
-- Tailwind CSS
-- Vite
-- Composer & NPM
+- Composer
 - Git & GitHub
 
 ## Security‑Related Files in Repository
