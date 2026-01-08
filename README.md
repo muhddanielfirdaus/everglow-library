@@ -23,8 +23,8 @@ The Everglow Library repository hosts the source code for a Laravel‑based web 
 
 ## Security Testing Tools
 This repository serves as the target application for:
-- Static Application Security Testing (SAST) using Snyk Code to identify insecure coding patterns
-- Dynamic Application Security Testing (DAST) using Burp Suite to scans dependencies for known vulnerabilities
+- Static Application Security Testing (SAST) using Snyk Code to identify any insecure coding patterns
+- Dynamic Application Security Testing (DAST) using Burp Suite to scans for any dependencies for known vulnerabilities
 - Manual testing for common vulnerabilities such as SQL Injection, Cross‑Site Scripting (XSS), and Cross‑Site Request Forgery (CSRF)
 
 ## Commit Evidence
