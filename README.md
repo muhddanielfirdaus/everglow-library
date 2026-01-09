@@ -30,7 +30,7 @@ This repository serves as the target application for:
 ## Security Implementation
 The Everglow Library application has implemented multiple security measures to protect user data and ensure safe operation. The security implementation focuses on best practices that are inspired by the OWASP Top 10 vulnerabilities including the authentication, access control and request validation.
 
-###Key Security Measures:
+Key Security Measures:
 
  1. Authentication:
     - The users must register and log in to access the restricted parts of the application.
