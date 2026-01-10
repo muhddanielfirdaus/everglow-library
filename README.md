@@ -9,11 +9,11 @@ The Everglow Library repository hosts the source code for a Laravel‑based web 
  2. Navigate to the project directory:
     - cd everglow-library
  
- 3. Install dependencies:
+ 3. Install all of the required dependencies:
     - composer install
     - npm install
       
- 4. Copy the .env.example to .env and set up database credentials:
+ 4. Copy the .env.example to .env and set up the database credentials:
     - cp .env.example .env
 
  5. Generate the application key:
@@ -67,10 +67,10 @@ The Everglow Library application has implemented multiple security measures to p
       accountability.
 
 ## How To Run The App
- 1. Start the Laravel development server:
+ 1. Start the Laravel development server by typing these codes on the terminal:
     - php artisan serve 
 
- 2. Open the browser and visit:
+ 2. Open the browser and visit the link below:
     - http://127.0.0.1:8000
 
  3. Log in with a default account (if available) or register as a new user.
@@ -84,3 +84,13 @@ The Everglow Library application has implemented multiple security measures to p
  - Frontend: HTML, CSS & JavaScript
  - Package Management: Composer & npm
  - Version Control: Git & GitHub
+
+## Security‑Related Files in Repository
+- .env.example – Environment variable template (no secrets exposed)
+- composer.lock – Dependency version locking
+- package-lock.json – JavaScript dependency locking
+- .gitignore – Prevents sensitive files from being committed
+
+## Commit Evidence
+Each security‑related activity, including scan evidence and documentation updates, was committed to the repository with clear commit messages to maintain traceability and accountability.
+
