@@ -23,9 +23,9 @@ The Everglow Library repository hosts the source code for a Laravel‑based web 
 
 ## Security Testing Tools
 This repository serves as the target application for:
-- Static Application Security Testing (SAST) using Snyk Code to identify any insecure coding patterns
-- Dynamic Application Security Testing (DAST) using Burp Suite to scans for any dependencies for known vulnerabilities
-- Manual testing for common vulnerabilities such as SQL Injection, Cross‑Site Scripting (XSS), and Cross‑Site Request Forgery (CSRF)
+- Static Application Security Testing (SAST) using Snyk Code to identify any insecure coding patterns.
+- Dynamic Application Security Testing (DAST) using Burp Suite to scans for any dependencies for known vulnerabilities.
+-. Manual testing for common vulnerabilities such as SQL Injection, Cross‑Site Scripting (XSS), and Cross‑Site Request Forgery (CSRF)
 
 ## Security Implementation
 The Everglow Library application has implemented multiple security measures to protect user data and ensure safe operation. The security implementation focuses on best practices that are inspired by the OWASP Top 10 vulnerabilities including the authentication, access control and request validation.
@@ -33,7 +33,7 @@ The Everglow Library application has implemented multiple security measures to p
 Key Security Measures:
 
  1. Authentication:
-    - The users must register and log in to access the restricted parts of the application.
+    - The users must register and log in before accessing the restricted parts of the application.
     - The passwords are hashed using a secure algorithm (bcrypt/argon2) to prevent the
       exposure of plaintext credentials.
     - All of the login attempts are monitored closely to mitigate any brute force attacks.
@@ -58,13 +58,6 @@ Key Security Measures:
     - Environment files (e.g., .env) and secret keys are not committed to the repository.
     - Sensitive data such as passwords, tokens and API keys are never exposed in frontend side
       of code or logs.
-
- 6. Regular Security Testing:
-    - Static Analysis (SAST) is performed using Snyk Code to detect any insecure coding
-      patterns such as hardcoded passwords or weak hashing.
-    - Dynamic Analysis (DAST) is performed using Burp Suite to detect any vulnerabilities.
-    - Manual testing to ensure that common vulnerabilities including SQL Injection, XSS and
-      CSRF are addressed.
 
 ## Commit Evidence
 Each security‑related activity, including scan evidence and documentation updates, was committed to the repository with clear commit messages to maintain traceability and accountability.
