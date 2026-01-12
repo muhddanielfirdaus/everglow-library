@@ -131,12 +131,13 @@
         <span class="nav-title">EVERGLOW ACADEMY SYSTEM</span>
     </div>
 
-    <ul class="nav-menu">
+     <ul class="nav-menu">
         <li><a href="{{ route('admin.dashboard') }}">DASHBOARD</a></li>
-        <li><a href="{{ route('admin.books.create') }}">ADD BOOKS</a></li>
         <li><a href="{{ route('admin.books.list') }}">BOOKS INFO</a></li>
         <li><a href="{{ route('admin.users') }}">USERS</a></li>
         <li><a href="{{ route('admin.borrow.records') }}">BORROW RECORDS</a></li>
+        <li><a href="{{ route('admin.audit.logs') }}">AUDIT LOGS</a></li>
+
     </ul>
 
     <form action="{{ route('admin.logout') }}" method="POST">

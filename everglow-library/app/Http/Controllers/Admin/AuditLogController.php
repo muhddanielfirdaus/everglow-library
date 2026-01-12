@@ -13,6 +13,8 @@ class AuditLogController extends Controller
             ->orderBy('id','desc')
             ->paginate(15); // better for UI
 
-        return view('admin.audit-logs',compact('logs'));
+        return view('admin.audit_logs.index', compact('logs'));
+
     }
 }
+
